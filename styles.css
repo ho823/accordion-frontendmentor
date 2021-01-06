@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    color: hsl(237, 12%, 33%);
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 4%;
+    margin-top: 0;
+}
+h2:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+
+
+p {
+    color: hsl(240, 6%, 50%);
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 4%;
+    margin-top: 0;
+}
+
+hr {
+    width: 87%;
+    margin: 0;
+    margin-bottom: 4%;
+
+}
+
+#card-background {
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: auto;
+    padding: 50px 35px 50px 0px;
+    margin: 120px 140px;
+}
+
+#card-flex {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#card-img {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+
+}
+
+#card-text {
+    width: 50%;
+}
+
+#img-box {
+    position: absolute;
+    top: 37%;
+    left: -27%;
+}
+
+#container-pattern {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    top: -100%;
+    z-index: -2;
+}
+
+#pattern {
+    position: absolute;
+    top: -61%;
+    left: -83%;
+    height: 200%;    
+}
+
+#img-container {
+    overflow: hidden;
+}
+
+#img-woman {
+    margin-left: -18%;
+}
+
+.subtitle-moving {
+    display: flex;
+}
+
+.arrow {
+    width: 100%;
+    transition: 0.2s;
+}
+
+.button-arrow {
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    width: 25px;
+    margin-left: 15%;
+}
+
+
+.accordion-content {
+    display: none;
+    overflow: hidden;
+}
